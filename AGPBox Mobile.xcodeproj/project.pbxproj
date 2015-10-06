@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		379CE5611BC4693000D16632 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379CE5601BC4693000D16632 /* AppDelegate.swift */; };
+		379CE5631BC4693000D16632 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379CE5621BC4693000D16632 /* FirstViewController.swift */; };
+		379CE5651BC4693000D16632 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379CE5641BC4693000D16632 /* SecondViewController.swift */; };
+		379CE5681BC4693000D16632 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 379CE5661BC4693000D16632 /* Main.storyboard */; };
+		379CE56A1BC4693000D16632 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 379CE5691BC4693000D16632 /* Assets.xcassets */; };
+		379CE56D1BC4693000D16632 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 379CE56B1BC4693000D16632 /* LaunchScreen.storyboard */; };
+		379CE5781BC4693000D16632 /* AGPBox_MobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379CE5771BC4693000D16632 /* AGPBox_MobileTests.swift */; };
+		379CE5831BC4693000D16632 /* AGPBox_MobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379CE5821BC4693000D16632 /* AGPBox_MobileUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		379CE5741BC4693000D16632 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 379CE5551BC4692F00D16632 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 379CE55C1BC4692F00D16632;
+			remoteInfo = "AGPBox Mobile";
+		};
+		379CE57F1BC4693000D16632 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 379CE5551BC4692F00D16632 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 379CE55C1BC4692F00D16632;
+			remoteInfo = "AGPBox Mobile";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		379CE55D1BC4692F00D16632 /* AGPBox Mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AGPBox Mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		379CE5601BC4693000D16632 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		379CE5621BC4693000D16632 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		379CE5641BC4693000D16632 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		379CE5671BC4693000D16632 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		379CE5691BC4693000D16632 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		379CE56C1BC4693000D16632 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		379CE56E1BC4693000D16632 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		379CE5731BC4693000D16632 /* AGPBox MobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AGPBox MobileTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		379CE5771BC4693000D16632 /* AGPBox_MobileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AGPBox_MobileTests.swift; sourceTree = "<group>"; };
+		379CE5791BC4693000D16632 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		379CE57E1BC4693000D16632 /* AGPBox MobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AGPBox MobileUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		379CE5821BC4693000D16632 /* AGPBox_MobileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AGPBox_MobileUITests.swift; sourceTree = "<group>"; };
+		379CE5841BC4693000D16632 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		379CE55A1BC4692F00D16632 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		379CE5701BC4693000D16632 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		379CE57B1BC4693000D16632 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		379CE5541BC4692F00D16632 = {
+			isa = PBXGroup;
+			children = (
+				379CE55F1BC4692F00D16632 /* AGPBox Mobile */,
+				379CE5761BC4693000D16632 /* AGPBox MobileTests */,
+				379CE5811BC4693000D16632 /* AGPBox MobileUITests */,
+				379CE55E1BC4692F00D16632 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		379CE55E1BC4692F00D16632 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				379CE55D1BC4692F00D16632 /* AGPBox Mobile.app */,
+				379CE5731BC4693000D16632 /* AGPBox MobileTests.xctest */,
+				379CE57E1BC4693000D16632 /* AGPBox MobileUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		379CE55F1BC4692F00D16632 /* AGPBox Mobile */ = {
+			isa = PBXGroup;
+			children = (
+				379CE5601BC4693000D16632 /* AppDelegate.swift */,
+				379CE5621BC4693000D16632 /* FirstViewController.swift */,
+				379CE5641BC4693000D16632 /* SecondViewController.swift */,
+				379CE5661BC4693000D16632 /* Main.storyboard */,
+				379CE5691BC4693000D16632 /* Assets.xcassets */,
+				379CE56B1BC4693000D16632 /* LaunchScreen.storyboard */,
+				379CE56E1BC4693000D16632 /* Info.plist */,
+			);
+			path = "AGPBox Mobile";
+			sourceTree = "<group>";
+		};
+		379CE5761BC4693000D16632 /* AGPBox MobileTests */ = {
+			isa = PBXGroup;
+			children = (
+				379CE5771BC4693000D16632 /* AGPBox_MobileTests.swift */,
+				379CE5791BC4693000D16632 /* Info.plist */,
+			);
+			path = "AGPBox MobileTests";
+			sourceTree = "<group>";
+		};
+		379CE5811BC4693000D16632 /* AGPBox MobileUITests */ = {
+			isa = PBXGroup;
+			children = (
+				379CE5821BC4693000D16632 /* AGPBox_MobileUITests.swift */,
+				379CE5841BC4693000D16632 /* Info.plist */,
+			);
+			path = "AGPBox MobileUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		379CE55C1BC4692F00D16632 /* AGPBox Mobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 379CE5871BC4693000D16632 /* Build configuration list for PBXNativeTarget "AGPBox Mobile" */;
+			buildPhases = (
+				379CE5591BC4692F00D16632 /* Sources */,
+				379CE55A1BC4692F00D16632 /* Frameworks */,
+				379CE55B1BC4692F00D16632 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AGPBox Mobile";
+			productName = "AGPBox Mobile";
+			productReference = 379CE55D1BC4692F00D16632 /* AGPBox Mobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		379CE5721BC4693000D16632 /* AGPBox MobileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 379CE58A1BC4693000D16632 /* Build configuration list for PBXNativeTarget "AGPBox MobileTests" */;
+			buildPhases = (
+				379CE56F1BC4693000D16632 /* Sources */,
+				379CE5701BC4693000D16632 /* Frameworks */,
+				379CE5711BC4693000D16632 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				379CE5751BC4693000D16632 /* PBXTargetDependency */,
+			);
+			name = "AGPBox MobileTests";
+			productName = "AGPBox MobileTests";
+			productReference = 379CE5731BC4693000D16632 /* AGPBox MobileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		379CE57D1BC4693000D16632 /* AGPBox MobileUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 379CE58D1BC4693000D16632 /* Build configuration list for PBXNativeTarget "AGPBox MobileUITests" */;
+			buildPhases = (
+				379CE57A1BC4693000D16632 /* Sources */,
+				379CE57B1BC4693000D16632 /* Frameworks */,
+				379CE57C1BC4693000D16632 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				379CE5801BC4693000D16632 /* PBXTargetDependency */,
+			);
+			name = "AGPBox MobileUITests";
+			productName = "AGPBox MobileUITests";
+			productReference = 379CE57E1BC4693000D16632 /* AGPBox MobileUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		379CE5551BC4692F00D16632 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Andrew Augustine";
+				TargetAttributes = {
+					379CE55C1BC4692F00D16632 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = SL9UAY4J52;
+					};
+					379CE5721BC4693000D16632 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = SL9UAY4J52;
+						TestTargetID = 379CE55C1BC4692F00D16632;
+					};
+					379CE57D1BC4693000D16632 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = SL9UAY4J52;
+						TestTargetID = 379CE55C1BC4692F00D16632;
+					};
+				};
+			};
+			buildConfigurationList = 379CE5581BC4692F00D16632 /* Build configuration list for PBXProject "AGPBox Mobile" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 379CE5541BC4692F00D16632;
+			productRefGroup = 379CE55E1BC4692F00D16632 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				379CE55C1BC4692F00D16632 /* AGPBox Mobile */,
+				379CE5721BC4693000D16632 /* AGPBox MobileTests */,
+				379CE57D1BC4693000D16632 /* AGPBox MobileUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		379CE55B1BC4692F00D16632 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				379CE56D1BC4693000D16632 /* LaunchScreen.storyboard in Resources */,
+				379CE56A1BC4693000D16632 /* Assets.xcassets in Resources */,
+				379CE5681BC4693000D16632 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		379CE5711BC4693000D16632 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		379CE57C1BC4693000D16632 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		379CE5591BC4692F00D16632 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				379CE5651BC4693000D16632 /* SecondViewController.swift in Sources */,
+				379CE5611BC4693000D16632 /* AppDelegate.swift in Sources */,
+				379CE5631BC4693000D16632 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		379CE56F1BC4693000D16632 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				379CE5781BC4693000D16632 /* AGPBox_MobileTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		379CE57A1BC4693000D16632 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				379CE5831BC4693000D16632 /* AGPBox_MobileUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		379CE5751BC4693000D16632 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 379CE55C1BC4692F00D16632 /* AGPBox Mobile */;
+			targetProxy = 379CE5741BC4693000D16632 /* PBXContainerItemProxy */;
+		};
+		379CE5801BC4693000D16632 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 379CE55C1BC4692F00D16632 /* AGPBox Mobile */;
+			targetProxy = 379CE57F1BC4693000D16632 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		379CE5661BC4693000D16632 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				379CE5671BC4693000D16632 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		379CE56B1BC4693000D16632 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				379CE56C1BC4693000D16632 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		379CE5851BC4693000D16632 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		379CE5861BC4693000D16632 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		379CE5881BC4693000D16632 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "AGPBox Mobile/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.agpbox.app.AGPBox-Mobile";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		379CE5891BC4693000D16632 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "AGPBox Mobile/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.agpbox.app.AGPBox-Mobile";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		379CE58B1BC4693000D16632 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "AGPBox MobileTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.agpbox.app.AGPBox-MobileTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AGPBox Mobile.app/AGPBox Mobile";
+			};
+			name = Debug;
+		};
+		379CE58C1BC4693000D16632 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "AGPBox MobileTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.agpbox.app.AGPBox-MobileTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AGPBox Mobile.app/AGPBox Mobile";
+			};
+			name = Release;
+		};
+		379CE58E1BC4693000D16632 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "AGPBox MobileUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.agpbox.app.AGPBox-MobileUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "AGPBox Mobile";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		379CE58F1BC4693000D16632 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "AGPBox MobileUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.agpbox.app.AGPBox-MobileUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "AGPBox Mobile";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		379CE5581BC4692F00D16632 /* Build configuration list for PBXProject "AGPBox Mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				379CE5851BC4693000D16632 /* Debug */,
+				379CE5861BC4693000D16632 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		379CE5871BC4693000D16632 /* Build configuration list for PBXNativeTarget "AGPBox Mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				379CE5881BC4693000D16632 /* Debug */,
+				379CE5891BC4693000D16632 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		379CE58A1BC4693000D16632 /* Build configuration list for PBXNativeTarget "AGPBox MobileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				379CE58B1BC4693000D16632 /* Debug */,
+				379CE58C1BC4693000D16632 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		379CE58D1BC4693000D16632 /* Build configuration list for PBXNativeTarget "AGPBox MobileUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				379CE58E1BC4693000D16632 /* Debug */,
+				379CE58F1BC4693000D16632 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 379CE5551BC4692F00D16632 /* Project object */;
+}
