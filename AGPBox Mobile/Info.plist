@@ -20,6 +20,64 @@
 	<string>????</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
+	<key>Fabric</key>
+	<dict>
+		<key>APIKey</key>
+		<string>e3e770ac5e4511b8726842f23a841629633b1dd6</string>
+		<key>Kits</key>
+		<array>
+			<dict>
+				<key>KitInfo</key>
+				<dict>
+					<key>consumerKey</key>
+					<string>lkjJIushKDU2wvRWTeYxkuDdM</string>
+					<key>consumerSecret</key>
+					<string>Mx1wYoNlSFWEj2VDusT0gfSF1FySsZtVwDFg9t60k4OzD2jy9j</string>
+				</dict>
+				<key>KitName</key>
+				<string>Twitter</string>
+			</dict>
+			<dict>
+				<key>KitInfo</key>
+				<dict>
+					<key>publish-key</key>
+					<string>pub-c-e0913124-0ade-45b0-bcf2-49aa86b30e10</string>
+					<key>secret-key</key>
+					<string>sec-c-NGM3NWExMWMtNTJmMy00YjJiLTg1YzUtMTA2MDRiNzU3NzIz</string>
+					<key>subscribe-key</key>
+					<string>sub-c-b992358a-b179-11e5-9848-0619f8945a4f</string>
+				</dict>
+				<key>KitName</key>
+				<string>PubNub</string>
+			</dict>
+			<dict>
+				<key>KitInfo</key>
+				<dict/>
+				<key>KitName</key>
+				<string>Crashlytics</string>
+			</dict>
+			<dict>
+				<key>KitInfo</key>
+				<dict>
+					<key>consumerKey</key>
+					<string>lkjJIushKDU2wvRWTeYxkuDdM</string>
+					<key>consumerSecret</key>
+					<string>Mx1wYoNlSFWEj2VDusT0gfSF1FySsZtVwDFg9t60k4OzD2jy9j</string>
+				</dict>
+				<key>KitName</key>
+				<string>Digits</string>
+			</dict>
+			<dict>
+				<key>KitInfo</key>
+				<dict>
+					<key>publishable</key>
+					<string>pk_test_l3xF8dkRMvUMcuyOxuHu7Bnj</string>
+				</dict>
+				<key>KitName</key>
+				<string>STPAPIClient</string>
+			</dict>
+		</array>
+	</dict>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>UILaunchStoryboardName</key>
@@ -43,8 +101,6 @@
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 </dict>
 </plist>

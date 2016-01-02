@@ -7,12 +7,15 @@
 //
 
 import UIKit
+import Stripe
 
-class FirstViewController: UIViewController {
+class FirstViewController: UIViewController, STPPaymentCardTextFieldDelegate {
+    
+    var paymentTextField: STPPaymentCardTextField! = nil
+    var submitButton: UIButton! = nil
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
 
     override func didReceiveMemoryWarning() {
